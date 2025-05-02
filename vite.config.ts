@@ -8,7 +8,7 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
-  base: "/", // Updated for username.github.io repository
+  base: "/deal-alchemy-consortium/", // Updated for deal-alchemy-consortium repository
   plugins: [
     react(),
   ],

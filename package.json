@@ -2,7 +2,7 @@
   "name": "deal-alchemy-consortium",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gweeyichen.github.io",
+  "homepage": "https://gweeyichen.github.io/deal-alchemy-consortium",
   "type": "module",
   "scripts": {
     "dev": "node scripts/memory-reminder.js && vite",
