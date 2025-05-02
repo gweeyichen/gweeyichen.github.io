@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deal Alchemy Consortium</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #1e3a8a;
-            color: white;
-            text-align: center;
+    <meta name="description" content="From proprietary deal sourcing to market-leading execution. Founded and led by deal-maker operator Yichen Gwee." />
+    <meta name="author" content="Yichen Gwee" />
+
+    <meta property="og:title" content="Deal Alchemy Consortium" />
+    <meta property="og:description" content="From proprietary deal sourcing to market-leading execution. Founded and led by deal-maker operator Yichen Gwee." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/Deal Alchemy.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/Deal Alchemy.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/Deal Alchemy.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap">
+
+    <!-- Script for GitHub Pages SPA routing -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
         }
-        .container {
-            max-width: 800px;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Deal Alchemy Consortium</h1>
-        <p>From proprietary deal sourcing to market-leading execution.</p>
-        <p>Founded and led by deal-maker operator Yichen Gwee.</p>
-    </div>
-</body>
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/assets/index-X1rC7EPj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-pzVy3Y-c.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
