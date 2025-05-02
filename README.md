@@ -80,14 +80,3 @@ npm run memory-reminder
 
 This script checks if the memory documents are up to date and reminds you to read them before working on the project.
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6e78887d-f72f-4174-9327-60179a2e6eef) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
