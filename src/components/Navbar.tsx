@@ -65,9 +65,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-3">
-          <img 
-            src="/images/deal-alchemy-logo.svg" 
-            alt="Deal Alchemy Logo" 
+          <img
+            src="/deal-alchemy-consortium/images/Deal Alchemy.png"
+            alt="Deal Alchemy Logo"
             className="h-10 w-auto"
           />
           <span className={`font-serif font-bold text-xl md:text-2xl ${isScrolled ? 'text-investment-navy' : 'text-white'}`}>
@@ -78,7 +78,7 @@ const Navbar = () => {
             )}
           </span>
         </Link>
-        
+
         <div className="hidden lg:flex items-center space-x-6">
           <Link to="/">
             <Button variant="outline" className="bg-investment-navy text-white border-investment-navy hover:bg-investment-navy/80 hover:text-white shadow-md">
@@ -115,9 +115,9 @@ const Navbar = () => {
               {language === 'en' ? translations.en.contact : translations.zh.contact}
             </Button>
           </Link>
-          <Button 
-            variant="ghost" 
-            size="icon" 
+          <Button
+            variant="ghost"
+            size="icon"
             onClick={toggleLanguage}
             className="ml-2 bg-investment-gold text-investment-navy hover:bg-investment-gold/80 hover:text-investment-navy shadow-sm"
             aria-label="Toggle language"
@@ -128,17 +128,17 @@ const Navbar = () => {
         </div>
 
         <div className="lg:hidden flex items-center space-x-2">
-          <Button 
-            variant="ghost" 
-            size="icon" 
+          <Button
+            variant="ghost"
+            size="icon"
             onClick={toggleLanguage}
             className="bg-investment-gold text-investment-navy hover:bg-investment-gold/80 hover:text-investment-navy shadow-sm"
             aria-label="Toggle language"
           >
             <Languages className="h-5 w-5" />
           </Button>
-          <button 
-            className={`${isScrolled ? 'text-investment-navy' : 'text-white'}`} 
+          <button
+            className={`${isScrolled ? 'text-investment-navy' : 'text-white'}`}
             onClick={toggleMobileMenu}
             aria-label="Toggle menu"
           >
