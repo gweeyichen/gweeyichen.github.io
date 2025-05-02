@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run the memory reminder script
+node scripts/memory-reminder.js
+
+# Ask if memory documents have been updated if needed
+echo "Have you updated the memory documents with your changes? (y/n)"
+read -r response
+if [ "$response" != "y" ]; then
+  echo "Please update the memory documents before committing."
+  echo "You can run 'npm run memory-reminder' to check the status of memory documents."
+  exit 1
+fi
+
+# Continue with the commit if everything is fine
+exit 0
