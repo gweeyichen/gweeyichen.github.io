@@ -8,6 +8,7 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
+  base: "/deal-alchemy-consortium/", // Add this line for GitHub Pages
   plugins: [
     react(),
   ],
