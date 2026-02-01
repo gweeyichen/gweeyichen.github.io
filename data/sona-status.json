@@ -1,0 +1,11 @@
+{
+  "working": true,
+  "currentFocus": "Pipeline building + dashboard fix",
+  "tasks": [
+    {"title": "Dashboard fix", "description": "Switched to GitHub Pages JSON", "status": "complete"},
+    {"title": "Sheet merge", "description": "68 prospects in leads tab", "status": "complete"},
+    {"title": "Buyer database", "description": "PE + search funds mapped", "status": "complete"},
+    {"title": "Building automation", "description": "8 prospects found", "status": "complete"}
+  ],
+  "lastUpdate": "2026-02-01T13:08:00+08:00"
+}
